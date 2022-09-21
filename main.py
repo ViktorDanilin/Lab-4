@@ -53,7 +53,7 @@ def clicked():
     canvas1.itemconfig(label1_canvas, text=key)
 
 
-bg = ImageTk.PhotoImage(Image.open("img/nws_rainbowsixsiege.jpg"))  # добавить гифку
+bg = ImageTk.PhotoImage(Image.open("img/nws_rainbowsixsiege.jpg"))
 canvas1 = Canvas(root, width=1024, height=576)
 canvas1.pack(fill="both", expand=True)
 canvas1.create_image(0, 0, image=bg, anchor="nw")
