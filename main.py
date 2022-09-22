@@ -46,6 +46,7 @@ def clicked():
                     if c == num:
                         block += k
                         summ += symbols.get(k)
+
         if i != 3:
             key += block + ' - '
         else:
